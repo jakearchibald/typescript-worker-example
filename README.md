@@ -14,4 +14,5 @@ I think the answer is somewhere in [Project References](https://www.typescriptla
 * Build fails with `error TS2318: Cannot find global type 'Array'`, but doesn't point to where this error is coming from.
 * VSCode complains about `postMessage` in `src/dedicated-worker/index.ts`, as it's assuming `Window.prototype.postMessage`.
 * VSCode complains about `src/dedicated-worker/tsconfig.json`. The error is `error TS2318: Cannot find global type 'Array'`.
+* VSCode complains about `clients` in `src/service-worker/index.ts`, as it isn't using `Service​Worker​Global​Scope` as the global.
 * VSCode complains about `event.request` in `src/service-worker/index.ts`, as it isn't using the service worker types for `addEventListener`.
