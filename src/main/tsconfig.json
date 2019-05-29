@@ -2,7 +2,10 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "lib": ["esnext", "dom"],
-    "outDir": "../../dist/main"
   },
+  "references": [
+    {"path": "../dedicated-worker"},
+    {"path": "../service-worker"},
+  ],
   "include": ["./**/*"]
 }
