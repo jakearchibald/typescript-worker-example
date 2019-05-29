@@ -10,5 +10,6 @@
     {"path": "src/main"},
     {"path": "src/dedicated-worker"},
     {"path": "src/service-worker"},
-  ]
+  ],
+  "exclude": ["./dist/**/*"]
 }
