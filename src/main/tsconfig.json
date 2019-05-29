@@ -4,5 +4,9 @@
     "lib": ["esnext", "dom"],
     "outDir": "../../dist/main"
   },
+  "references": [
+    {"path": "../../src/dedicated-worker"},
+    {"path": "../../src/service-worker"}
+  ],
   "include": ["./**/*"]
 }
