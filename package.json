@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc -b"
+    "build": "tsc -b src/main"
   },
   "devDependencies": {
     "typescript": "^3.4.5"

@@ -4,12 +4,8 @@
     "module": "esnext",
     "strict": true,
     "moduleResolution": "node",
+    "rootDir": "src",
+    "outDir": "dist",
     "composite": true
   },
-  "references": [
-    {"path": "src/main"},
-    {"path": "src/dedicated-worker"},
-    {"path": "src/service-worker"},
-  ],
-  "exclude": ["./dist/**/*"]
 }
