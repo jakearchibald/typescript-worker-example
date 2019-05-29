@@ -1,0 +1,11 @@
+{
+  "name": "typescript-worker-example",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  }
+}
