@@ -4,8 +4,10 @@
     "module": "esnext",
     "strict": true,
     "moduleResolution": "node",
-    "rootDir": "src",
-    "outDir": "dist",
-    "composite": true
+    "rootDir": ".",
+    "outDir": "../dist",
+    "composite": true,
+    "declarationMap": true,
+    "sourceMap": true
   }
 }
