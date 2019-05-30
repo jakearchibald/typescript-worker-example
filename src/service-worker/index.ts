@@ -3,7 +3,7 @@
 
 // This fixes `self`'s type.
 declare var self: ServiceWorkerGlobalScope;
-export type unused = 'unused';
+export {};
 
 console.log(self.clients);
 
