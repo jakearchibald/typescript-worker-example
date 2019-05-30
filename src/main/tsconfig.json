@@ -6,6 +6,5 @@
   "references": [
     {"path": "../dedicated-worker"},
     {"path": "../service-worker"},
-  ],
-  "include": ["./**/*"]
+  ]
 }
