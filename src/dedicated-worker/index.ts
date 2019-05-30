@@ -3,7 +3,7 @@
 
 // This fixes `self`'s type.
 declare var self: DedicatedWorkerGlobalScope;
-export type unused = 'unused';
+export {};
 
 const helloMessage = {
   hello: 'world',
